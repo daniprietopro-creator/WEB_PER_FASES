@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080"><defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f93b8"/><stop offset="1" stop-color="#c9b08a"/></linearGradient><filter id="gra"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.35 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs><rect width="1920" height="1080" fill="url(#c)"/><g fill="#8a7255"><rect x="560" y="0" width="800" height="1080"/></g><rect x="640" y="260" width="160" height="420" rx="80" fill="#2e251c"/><rect x="880" y="260" width="160" height="420" rx="80" fill="#2e251c"/><rect x="1120" y="260" width="160" height="420" rx="80" fill="#2e251c"/><circle cx="960" cy="470" r="70" fill="#9c7a35"/><rect width="1920" height="1080" filter="url(#gra)" opacity="0.5"/>
-  <g font-family="Helvetica, Arial, sans-serif" fill="#fff" opacity="0.85">
-    <rect x="40" y="960" width="575" height="80" rx="8" fill="#000" opacity="0.45"/>
-    <text x="64" y="1010" font-size="30" font-weight="bold">P16b</text>
-    <text x="164" y="1010" font-size="26">Campanar: finestral i campana</text>
-  </g></svg>
