@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080"><defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b3128"/><stop offset="1" stop-color="#120e0a"/></linearGradient><filter id="gra"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.35 0"/><feComposite in2="SourceGraphic" operator="in"/></filter></defs><rect width="1920" height="1080" fill="url(#c)"/><rect x="200" y="200" width="80" height="880" fill="#8c7458"/><rect x="540" y="200" width="80" height="880" fill="#8c7458"/><rect x="880" y="200" width="80" height="880" fill="#8c7458"/><rect x="1220" y="200" width="80" height="880" fill="#8c7458"/><rect x="1560" y="200" width="80" height="880" fill="#8c7458"/><path d="M0 0 H1920 V260 Q960 -40 0 260 Z" fill="#6e5a43"/><rect x="900" y="300" width="120" height="260" rx="60" fill="#f4dfb0" opacity="0.8"/><rect width="1920" height="1080" filter="url(#gra)" opacity="0.5"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#fff" opacity="0.85">
+    <rect x="40" y="960" width="380" height="80" rx="8" fill="#000" opacity="0.45"/>
+    <text x="64" y="1010" font-size="30" font-weight="bold">P14a</text>
+    <text x="164" y="1010" font-size="26">Nau: pla general</text>
+  </g></svg>
