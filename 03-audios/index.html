@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Vella de Lleida</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cada bloc indica les seves pistes: data-locucio i data-ambient -->
+  <section class="bloc" id="bloc-1">
+    <h1>0. Pantalla inicial</h1>
+    <button type="button" id="btn-comencar">Comença el viatge</button>
+  </section>
+  <section class="bloc" id="bloc-2" data-locucio="media/audio/1_AVUI_LOCUCIO.mp3" data-ambient="media/audio/1_AVUI_AMBIENT.mp3"><h2>1. Avui</h2></section>
+  <section class="bloc" id="bloc-3" data-locucio="media/audio/2_RECUPERACIO_LOCUCIO.mp3" data-ambient="media/audio/2_RECUPERACIO_AMBIENT.mp3"><h2>2. Recuperació</h2></section>
+  <section class="bloc" id="bloc-4" data-locucio="media/audio/3_ABANDONAMENT_LOCUCIO.mp3" data-ambient="media/audio/3_ABANDONAMENT_AMBIENT.mp3"><h2>3. Abandonament</h2></section>
+  <section class="bloc" id="bloc-5" data-locucio="media/audio/4_CASERNA_LOCUCIO.mp3" data-ambient="media/audio/4_CASERNA_AMBIENT.mp3"><h2>4. Caserna militar</h2></section>
+  <section class="bloc" id="bloc-6" data-locucio="media/audio/5_CATEDRAL_LOCUCIO.mp3" data-ambient="media/audio/5_CATEDRAL_AMBIENT.mp3"><h2>5. Catedral</h2></section>
+  <section class="bloc" id="bloc-7" data-locucio="media/audio/6_ORIGENS_LOCUCIO.mp3" data-ambient="media/audio/6_ORIGENS_AMBIENT.mp3"><h2>6. Orígens</h2></section>
+  <section class="bloc" id="bloc-8"><h2>7. Viu la Seu Vella de Lleida</h2></section>
+
+  <nav class="controls" aria-label="Navegació entre blocs">
+    <button type="button" id="btn-amunt" aria-label="Bloc anterior">↑</button>
+    <ol class="punts"></ol>
+    <button type="button" id="btn-avall" aria-label="Bloc següent">↓</button>
+  </nav>
+
+  <!-- Llibreries: GSAP + ScrollTrigger + ScrollToPlugin (https://gsap.com) i Howler.js (https://howlerjs.com) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
